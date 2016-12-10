@@ -10,19 +10,19 @@ int main()
     scanf("%d",&c);
     if(a==1&&b<18&&c>50)
     {    
-    printf("Похудей,жирный!");
+    printf("Pohudey!");
     }
     else if(a==1&&b<175&&c<55)
     {
-        printf("Потолстей,чувак!");
+        printf("Potolstey!");
     }
     else if(a==1&&b>175&&c>65)
     {
-        printf("Похудей,мужик!");
+        printf("pohudey, man!");
     }
     else if(a==1&&b>175&&c<65)
     {
-        printf("Потолстей,мужик");
+        printf("Potolsteyu, man");
     }
     else if(a==1&&b<175&&c==55)
     {
@@ -34,19 +34,19 @@ int main()
     }
     else if(a>1&&b<165&&c<40)
     {
-        printf("Потолстей!");
+        printf("Potolstey!");
     }
     else if(a>1&&b<165&&c>40)
     {
-        printf("Похудей!");
+        printf("Pohudey!");
     }   
     else if(a>1&&b>165&&c<40)
     {
-        printf("Потолстей!");
+        printf("Potolstey!");
     }
     else if(a>1&&b>165&&c>40)
     {
-        printf("Похудей!");
+        printf("Pohydey!");
     }
     else if(a>1&&b<165&&c==40)
     {
